@@ -75,7 +75,7 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/kenzok8/openwrt-packages.git package/kenzo
+        git clone https://github.com/dingdingup/tony.git package/tony
         
     - name: Configuration Customization - Build_Newifi_D2
       env:
